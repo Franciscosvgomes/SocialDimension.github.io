@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Social Dimension</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="Imagens/Mini.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a class="home" href="socialdimension.html"><img src="Imagens/SocialDimension.png"></a>
+            <a href="sobre.html">Sobre Nós</a>
+            <button class="botao" onclick="myFunction()">Serviços</button>
+            <a href="contactos.html">Contactos</a>
+        </nav>
+        <div class="box" id="mybox">
+            <ul>
+                <li><a href="individuos.html">Indivíduos</a></li>
+                <li><a href="seniores.html">Séniores e Pessoas Incapacidatas</a></li>
+                <li><a href="familias.html">Famílias</a></li>
+                <li><a href="publicas.html">Organizações Públicas</a></li>
+                <li><a href="privadas.html">Organizações Privadas</a></li>
+            </ul>
+        </div>
+
+        <div class="nav2">
+            <a href="socialdimension.html"><img src="Imagens/SocialDimension.png"></a>
+            <button class="botao2" onclick="myFunction()">
+                <div class="barra1"></div>
+                <div class="barra2"></div>
+                <div class="barra3"></div>
+            </button>
+        </div>
+
+        <div class="box2" id="mybox2">
+            <ul>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><button class="botao3" onclick="myFunction()">Serviços</button></li>
+                <div class="list" id="mybox3">
+                    <li><a href="individuos.html">Indivíduos</a></li>
+                    <li><a href="seniores.html">Séniores e Pessoas Incapacidatas</a></li>
+                    <li><a href="familias.html">Famílias</a></li>
+                    <li><a href="publicas.html">Organizações Públicas</a></li>
+                    <li><a href="privadas.html">Organizações Privadas</a></li>
+                </div>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container">
+            <div>
+                <img src="Imagens/Grupo.jpg">
+            </div>
+
+            <h3>Missão</h3>
+
+            <p>Criar valor nas pessoas, de modo a potenciar o desenvolvimento organizacional e social, através de aconselhamento profissional especializado.
+            </p>
+
+            <h3>Valores</h3>
+
+            <p>Ser um referencial na prestação de serviços de assessoria e consultoria na área psicossocial, criando e acrescentando valor na gestão das pessoas.
+            </p>
+
+            <hr>
+
+            <h3>Equipa</h3>
+
+            <div class="equipa">
+                <img src="Imagens/Neusa.jpg">
+                <div class="info">
+                    <p><b>Neusa Sofia Coelho</b></p>
+                    <p>Assistente Social</p>
+                </div>
+            </div>
+
+            <p>Assistente Social, licenciada pela faculdade de Ciências Sociais da Universidade Católica Portuguesa Centro Regional de Braga em 2005, tem pós-graduação em “ Violência contra as mulheres no seio da família”pelo Centro Regional do Porto da Universidade Católica Portuguesa e frequentou o curso “ Sensibilização à intervenção sistémica” da Sociedade Portuguesa de Terapia Familiar, núcleo do Porto.</p>
+
+            <p>Trabalhou na área da proteção das crianças e jovens na CPCJ de Braga.</p>
+
+            <p>Em 2012 integrou a Associação Portuguesa de Deficientes e simultaneamente exercia funções na Nephrocare de Braga trabalhando com doentes renais crónicos.</p>
+
+            <div class="equipa">
+                <img src="Imagens/Ana.jpg">
+                <div class="info">
+                    <p><b>Ana Filipa Faria</b></p>
+                    <p>Psicóloga</p>
+                </div>
+            </div>
+
+            <p>Mestre em Psicologia da Justiça pela Universidade do Minho, e membro efetivo da Ordem dos Psicólogos Portugueses.</p>
+
+            <p>Perita em avaliação psicológica forense, formada também pela Universidade do Minho. Técnica de Apoio à Vítima (TAV), instruída pela Comissão para a Cidadania e Igualdade de Género (CIG), tendo experiência profissional em intervenção psicológica quer com vítimas de crimes, quer com agressores.</p>
+
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <a href="privacidade.html">Termos e Políticas de Privacidade</a>
+            <p>Copyright Social Dimension - Assessoria e Consultoria Psicossocial</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/company/social-dimension/"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://www.facebook.com/socialdimensionbraga/"><i class="fa fa-facebook-square"></i></a>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        function myMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.12),
+                zoom: 10,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            }
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
