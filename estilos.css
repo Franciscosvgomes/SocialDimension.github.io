@@ -31,7 +31,7 @@ nav {
 
 nav a {
     margin: 10px 40px 10px 40px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
     color: #2EB5EA;
     transition: 350ms ease-in;
@@ -53,17 +53,16 @@ nav a:hover {
 }
 
 nav img {
-    max-height: 100px;
+    max-height: 80px;
 }
 
 .botao {
     cursor: pointer;
     border: none;
     background-color: inherit;
-    ;
     outline: none;
     margin: 10px 40px 10px 40px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
     color: #2EB5EA;
     transition: 350ms ease-in;
@@ -80,7 +79,7 @@ nav img {
     border: 0px solid none;
     background-color: #F7FDFF;
     margin: 0px;
-    margin-left: 500px;
+    margin-left: 450px;
     width: 350px;
     padding: 15px;
     opacity: 0.85;
@@ -102,7 +101,7 @@ li {
 li a {
     text-decoration: none;
     color: #4865AE;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 350;
 }
 
@@ -111,7 +110,7 @@ li a:hover {
 }
 
 .main {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .container {
@@ -153,7 +152,7 @@ li a:hover {
 .submenu a {
     text-decoration: none;
     color: #88A9FC;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 300;
     margin-right: 20px;
     margin-left: 20px;
@@ -180,13 +179,13 @@ li a:hover {
 .info p {
     margin: 10px 0px 5px 40px;
     color: #4865AE;
-    font-size: 25px;
+    font-size: 18px;
 
 }
 
 h1 {
     color: #4865AE;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 500;
     margin: 40px;
     margin-left: 80px;
@@ -194,7 +193,7 @@ h1 {
 
 h2 {
     color: #4865AE;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
     margin: 40px;
     margin-left: 80px;
@@ -203,14 +202,14 @@ h2 {
 h3 {
     font-weight: 500;
     color: #4865AE;
-    font-size: 30px;
+    font-size: 20px;
     margin: 40px;
     margin-left: 80px;
 }
 
 p {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 18px;
     margin: 20px;
     margin-left: 80px;
     margin-right: 80px;
@@ -236,13 +235,13 @@ footer {
 
 .foot a {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 16px;
 }
 
 .foot p {
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 250;
 }
 
